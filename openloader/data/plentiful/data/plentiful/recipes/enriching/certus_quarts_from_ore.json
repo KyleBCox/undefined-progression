@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:enriching",
+    "input": {
+      "ingredient": {
+        "tag": "forge:ores/certus_quartz"
+      }
+    },
+    "output": {
+      "item": "emendatusenigmatica:certus_quartz_gem",
+      "count": 4
+    }
+  }

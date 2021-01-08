@@ -1,0 +1,33 @@
+{
+    "type": "create:crushing",
+    "ingredients": [
+      {
+        "tag": "forge:ores/sulfur"
+      }
+    ],
+    "results": [
+      {
+        "item": "emendatusenigmatica:sulfur_gem",
+        "count": 2
+      },
+      {
+        "item": "emendatusenigmatica:sulfur_gem",
+        "count": 1,
+        "chance": 0.25
+      },
+      {
+        "item": "minecraft:cobblestone",
+        "chance": 0.125
+      }
+    ],
+    "processingTime": 300,
+    "conditions": [
+      {
+        "value": {
+          "tag": "forge:ores/sulfur",
+          "type": "forge:tag_empty"
+        },
+        "type": "forge:not"
+      }
+    ]
+  }

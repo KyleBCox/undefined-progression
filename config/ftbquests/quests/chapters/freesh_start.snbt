@@ -1,0 +1,86 @@
+{
+	id: 2,
+	filename: "freesh_start",
+	order_index: 1,
+	title: "Stoorage",
+	icon: "minecraft:chest",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 0.0d,
+			y: 0.0d,
+			id: 109,
+			tasks: [{
+				id: 110,
+				type: "item",
+				item: "minecraft:chest"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: -1.5d,
+			dependencies: [I;109],
+			id: 111,
+			tasks: [{
+				id: 112,
+				type: "item",
+				item: "usefulbackpacks:backpack_small"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: -1.5d,
+			dependencies: [I;111],
+			id: 113,
+			tasks: [{
+				id: 114,
+				type: "item",
+				item: "usefulbackpacks:backpack_medium"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: -1.5d,
+			dependencies: [I;113],
+			id: 115,
+			tasks: [{
+				id: 116,
+				type: "item",
+				item: "usefulbackpacks:backpack_large"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -1.5d,
+			dependencies: [I;109],
+			id: 117,
+			tasks: [{
+				id: 118,
+				type: "item",
+				item: "quantumstorage:quantum_bag_white"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: 1.5d,
+			dependencies: [I;109],
+			id: 119,
+			tasks: [{
+				id: 120,
+				type: "item",
+				item: "enderstorage:ender_chest"
+			}]
+		},
+		{
+			x: 1.5d,
+			y: 0.5d,
+			dependencies: [I;109],
+			id: 121,
+			tasks: [{
+				id: 122,
+				type: "item",
+				item: "enderstorage:ender_pouch"
+			}]
+		}
+	]
+}

@@ -1,0 +1,359 @@
+{
+	id: 42,
+	filename: "mekanismismismism",
+	order_index: 3,
+	title: "Mekanismismismism",
+	icon: "mekanism:alloy_atomic",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: -0.5d,
+			y: -0.5d,
+			dependencies: [I;45],
+			id: 43,
+			tasks: [{
+				id: 44,
+				type: "item",
+				item: "mekanism:metallurgic_infuser"
+			}]
+		},
+		{
+			x: -0.5d,
+			y: -2.0d,
+			id: 45,
+			tasks: [{
+				id: 46,
+				type: "item",
+				item: "emendatusenigmatica:osmium_ingot"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: -0.5d,
+			dependencies: [I;43],
+			id: 47,
+			tasks: [{
+				id: 48,
+				type: "item",
+				item: "mekanism:alloy_infused"
+			}]
+		},
+		{
+			x: 2.5d,
+			y: -0.5d,
+			dependencies: [I;47],
+			id: 49,
+			tasks: [{
+				id: 50,
+				type: "item",
+				item: "mekanism:alloy_reinforced"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: -0.5d,
+			dependencies: [I;49],
+			id: 51,
+			tasks: [{
+				id: 52,
+				type: "item",
+				item: "mekanism:alloy_atomic"
+			}]
+		},
+		{
+			x: -0.5d,
+			y: -3.5d,
+			dependencies: [I;45],
+			id: 53,
+			tasks: [{
+				id: 54,
+				type: "item",
+				item: "mekanism:steel_casing"
+			}]
+		},
+		{
+			x: -6.0d,
+			y: -5.5d,
+			dependencies: [I;53],
+			id: 55,
+			tasks: [{
+				id: 56,
+				type: "item",
+				item: "mekanism:enrichment_chamber"
+			}]
+		},
+		{
+			x: -6.0d,
+			y: -7.0d,
+			dependencies: [I;55],
+			id: 57,
+			tasks: [{
+				id: 58,
+				type: "item",
+				item: "mekanism:enriched_carbon"
+			}]
+		},
+		{
+			x: -6.0d,
+			y: -8.5d,
+			dependencies: [I;57],
+			id: 59,
+			tasks: [{
+				id: 60,
+				type: "item",
+				item: "mekanism:enriched_redstone"
+			}]
+		},
+		{
+			x: -6.0d,
+			y: -10.0d,
+			dependencies: [I;59],
+			id: 61,
+			tasks: [{
+				id: 62,
+				type: "item",
+				item: "mekanism:enriched_diamond"
+			}]
+		},
+		{
+			x: -6.0d,
+			y: -11.5d,
+			dependencies: [I;61],
+			id: 63,
+			tasks: [{
+				id: 64,
+				type: "item",
+				item: "mekanism:enriched_gold"
+			}]
+		},
+		{
+			x: -6.0d,
+			y: -13.0d,
+			dependencies: [I;63],
+			id: 65,
+			tasks: [{
+				id: 66,
+				type: "item",
+				item: "mekanism:enriched_tin"
+			}]
+		},
+		{
+			x: -5.0d,
+			y: -5.5d,
+			dependencies: [I;53],
+			id: 67,
+			tasks: [{
+				id: 68,
+				type: "item",
+				item: "mekanism:osmium_compressor"
+			}]
+		},
+		{
+			x: -4.0d,
+			y: -5.5d,
+			dependencies: [I;53],
+			id: 69,
+			tasks: [{
+				id: 70,
+				type: "item",
+				item: "mekanism:combiner",
+				consume_items: false
+			}]
+		},
+		{
+			x: -3.0d,
+			y: -5.5d,
+			dependencies: [I;53],
+			id: 71,
+			tasks: [{
+				id: 72,
+				type: "item",
+				item: "mekanism:crusher"
+			}]
+		},
+		{
+			x: -2.0d,
+			y: -5.5d,
+			dependencies: [I;53],
+			id: 73,
+			tasks: [{
+				id: 74,
+				type: "item",
+				item: "mekanism:purification_chamber"
+			}]
+		},
+		{
+			x: -1.0d,
+			y: -5.5d,
+			dependencies: [I;53],
+			id: 75,
+			tasks: [{
+				id: 76,
+				type: "item",
+				item: "mekanism:energized_smelter"
+			}]
+		},
+		{
+			x: -9.5d,
+			y: -1.0d,
+			id: 77,
+			tasks: [{
+				id: 78,
+				type: "item",
+				item: "mekanism:electric_pump"
+			}]
+		},
+		{
+			x: -9.5d,
+			y: -2.0d,
+			id: 81,
+			tasks: [{
+				id: 82,
+				type: "item",
+				item: "mekanism:personal_chest"
+			}]
+		},
+		{
+			x: -10.5d,
+			y: -2.0d,
+			id: 83,
+			tasks: [{
+				id: 84,
+				type: "item",
+				item: "mekanism:chargepad"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -5.5d,
+			dependencies: [I;53],
+			id: 85,
+			tasks: [{
+				id: 86,
+				type: "item",
+				item: "mekanism:rotary_condensentrator"
+			}]
+		},
+		{
+			x: 1.0d,
+			y: -5.5d,
+			dependencies: [I;53],
+			id: 87,
+			tasks: [{
+				id: 88,
+				type: "item",
+				item: "mekanism:chemical_oxidizer"
+			}]
+		},
+		{
+			x: 2.0d,
+			y: -5.5d,
+			dependencies: [I;53],
+			id: 89,
+			tasks: [{
+				id: 90,
+				type: "item",
+				item: "mekanism:chemical_infuser"
+			}]
+		},
+		{
+			x: 3.0d,
+			y: -5.5d,
+			dependencies: [I;53],
+			id: 91,
+			tasks: [{
+				id: 92,
+				type: "item",
+				item: "mekanism:chemical_injection_chamber"
+			}]
+		},
+		{
+			x: 4.0d,
+			y: -5.5d,
+			dependencies: [I;53],
+			id: 93,
+			tasks: [{
+				id: 94,
+				type: "item",
+				item: "mekanism:precision_sawmill"
+			}]
+		},
+		{
+			x: 5.0d,
+			y: -5.5d,
+			dependencies: [I;53],
+			id: 95,
+			tasks: [{
+				id: 96,
+				type: "item",
+				item: "mekanism:chemical_dissolution_chamber"
+			}]
+		},
+		{
+			x: -7.0d,
+			y: -5.5d,
+			dependencies: [I;53],
+			id: 97,
+			tasks: [{
+				id: 98,
+				type: "item",
+				item: "mekanism:chemical_washer"
+			}]
+		},
+		{
+			x: 6.0d,
+			y: -5.5d,
+			dependencies: [I;53],
+			id: 99,
+			tasks: [{
+				id: 100,
+				type: "item",
+				item: "mekanism:chemical_crystallizer"
+			}]
+		},
+		{
+			x: 7.0d,
+			y: -5.5d,
+			dependencies: [I;53],
+			id: 101,
+			tasks: [{
+				id: 102,
+				type: "item",
+				item: "mekanism:pressurized_reaction_chamber"
+			}]
+		},
+		{
+			x: -8.0d,
+			y: -5.5d,
+			dependencies: [I;53],
+			id: 103,
+			tasks: [{
+				id: 104,
+				type: "item",
+				item: "mekanism:nutritional_liquifier"
+			}]
+		},
+		{
+			x: -5.0d,
+			y: -7.0d,
+			dependencies: [I;67],
+			id: 105,
+			tasks: [{
+				id: 106,
+				type: "item",
+				item: "mekanism:ingot_refined_obsidian"
+			}]
+		},
+		{
+			x: -5.0d,
+			y: -8.5d,
+			dependencies: [I;67],
+			id: 107,
+			tasks: [{
+				id: 108,
+				type: "item",
+				item: "mekanism:ingot_refined_glowstone"
+			}]
+		}
+	]
+}

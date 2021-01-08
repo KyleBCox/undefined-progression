@@ -1,0 +1,14 @@
+{
+    "type": "immersiveengineering:crusher",
+    "secondaries": [],
+    "result": {
+      "count": 6,
+      "base_ingredient": {
+        "item": "emendatusenigmatica:fluorite_gem"
+      }
+    },
+    "input": {
+      "tag": "forge:ores/fluorite"
+    },
+    "energy": 6000
+  }

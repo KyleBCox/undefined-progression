@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:enriching",
+    "input": {
+      "ingredient": {
+        "tag": "forge:ores/arcane"
+      }
+    },
+    "output": {
+      "item": "emendatusenigmatica:arcane_gem",
+      "count": 2
+    }
+  }

@@ -1,0 +1,30 @@
+{
+	id: 123,
+	filename: "applied_energetics",
+	order_index: 4,
+	title: "Applied Energetics",
+	default_quest_shape: "",
+	quests: [
+		{
+			x: 0.0d,
+			y: 0.0d,
+			id: 124,
+			tasks: [{
+				id: 125,
+				type: "item",
+				item: "emendatusenigmatica:certus_quartz_gem"
+			}]
+		},
+		{
+			x: 0.0d,
+			y: -1.5d,
+			dependencies: [I;124],
+			id: 126,
+			tasks: [{
+				id: 127,
+				type: "item",
+				item: "emendatusenigmatica:charged_certus_quartz_gem"
+			}]
+		}
+	]
+}

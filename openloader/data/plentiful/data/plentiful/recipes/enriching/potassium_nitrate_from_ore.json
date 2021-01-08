@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:enriching",
+    "input": {
+      "ingredient": {
+        "tag": "forge:ores/potassium_nitrate"
+      }
+    },
+    "output": {
+      "item": "emendatusenigmatica:potassium_nitrate_gem",
+      "count": 3
+    }
+  }

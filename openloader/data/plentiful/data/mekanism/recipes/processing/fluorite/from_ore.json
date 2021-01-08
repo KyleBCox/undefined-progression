@@ -1,0 +1,12 @@
+{
+    "type": "mekanism:enriching",
+    "input": {
+      "ingredient": {
+        "tag": "forge:ores/fluorite"
+      }
+    },
+    "output": {
+      "item": "emendatusenigmatica:fluorite_gem",
+      "count": 6
+    }
+  }

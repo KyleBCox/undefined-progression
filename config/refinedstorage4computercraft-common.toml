@@ -1,0 +1,9 @@
+
+[peripheral]
+	#The energy used by the Peripheral for each connected Computer/Turtle
+	#Range: > 0
+	perComputerUsage = 50
+	#The base energy used by the Peripheral
+	#Range: > 0
+	baseUsage = 10
+
