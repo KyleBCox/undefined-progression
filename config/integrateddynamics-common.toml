@@ -158,8 +158,6 @@
 [biome]
 
 	[biome.meneglin]
-		#If this biome should automatically generate in the overworld dimension.
-		generateInOverworld = true
-		#The weight of spawning.
+		#The weight of spawning in the overworld, 0 disables spawning.
 		spawnWeight = 5
 

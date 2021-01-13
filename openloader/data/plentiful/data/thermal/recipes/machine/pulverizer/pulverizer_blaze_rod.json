@@ -1,0 +1,17 @@
+{
+    "type": "thermal:pulverizer",
+    "ingredient": {
+      "tag": "forge:ores/quartz"
+    },
+    "result": [
+      {
+        "item": "minecraft:blaze_powder",
+        "chance": 3.0
+      },
+      {
+        "item": "emendatusenigmatica:sulfur_gem",
+        "chance": 0.25
+      }
+    ],
+    "experience": 0.2
+  }

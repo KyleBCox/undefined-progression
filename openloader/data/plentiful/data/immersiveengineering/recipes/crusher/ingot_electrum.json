@@ -1,0 +1,14 @@
+{
+    "type": "immersiveengineering:crusher",
+    "secondaries": [],
+    "result": {
+      "count": 1,
+      "base_ingredient": {
+        "item": "emendatusenigmatica:electrum_dust"
+      }
+    },
+    "input": {
+      "tag": "forge:ingots/electrum"
+    },
+    "energy": 6000
+  }

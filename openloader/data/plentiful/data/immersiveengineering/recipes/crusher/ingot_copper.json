@@ -1,0 +1,14 @@
+{
+  "type": "immersiveengineering:crusher",
+  "secondaries": [],
+  "result": {
+    "count": 1,
+    "base_ingredient": {
+      "item": "emendatusenigmatica:copper_dust"
+    }
+  },
+  "input": {
+    "tag": "forge:ingots/copper"
+  },
+  "energy": 6000
+}

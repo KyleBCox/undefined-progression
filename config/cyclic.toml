@@ -44,6 +44,8 @@
 		growth = true
 		#Set false to disable enchantment
 		step = true
+		#Set false to disable enchantment
+		launch = true
 
 	#####################################################################################
 	# Block specific configs

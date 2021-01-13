@@ -27,5 +27,6 @@
   "forge:ingots/zinc": "emendatusenigmatica:zinc_ingot",
   "forge:ingots/enderium": "emendatusenigmatica:enderium_ingot",
   "forge:ingots/lumium": "emendatusenigmatica:lumium_ingot",
-  "forge:ingots/signalum": "emendatusenigmatica:signalum_ingot"
+  "forge:ingots/signalum": "emendatusenigmatica:signalum_ingot",
+  "emendatusenigmatica:sulfur_dust": "null"
 }

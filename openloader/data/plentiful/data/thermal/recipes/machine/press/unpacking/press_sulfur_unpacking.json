@@ -1,0 +1,19 @@
+{
+    "type": "thermal:press",
+    "input": [
+      {
+        "tag": "forge:storage_blocks/sulfur",
+        "count": 1
+      },
+      {
+        "item": "thermal:press_unpacking_die"
+      }
+    ],
+    "result": [
+      {
+        "item": "emendatusenigmatica:sulfur_gem",
+        "count": 9
+      }
+    ],
+    "energy": 400
+  }

@@ -1,0 +1,14 @@
+{
+    "type": "immersiveengineering:crusher",
+    "secondaries": [],
+    "result": {
+      "count": 1,
+      "base_ingredient": {
+        "item": "emendatusenigmatica:steel_dust"
+      }
+    },
+    "input": {
+      "tag": "forge:ingots/steel"
+    },
+    "energy": 6000
+  }

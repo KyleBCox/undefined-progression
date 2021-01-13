@@ -80,7 +80,7 @@
 		worldNames = ["overworld"]
 		#Defines the structure spacing for worldgen
 		#Range: 1 ~ 512
-		spacing = 18
+		spacing = 40
 		#Defines the structure separation for worldgen
 		#Range: 1 ~ 512
 		separation = 4

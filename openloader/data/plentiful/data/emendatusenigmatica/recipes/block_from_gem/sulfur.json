@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "emendatusenigmatica",
+    "pattern": [
+      "###",
+      "###",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "item": "forge:gems/sulfur"
+      }
+    },
+    "result": {
+      "item": "emendatusenigmatica:sulfur_block"
+    }
+  }

@@ -1,0 +1,14 @@
+{
+  "type": "immersiveengineering:crusher",
+  "secondaries": [],
+  "result": {
+    "count": 1,
+    "base_ingredient": {
+      "item": "emendatusenigmatica:gold_dust"
+    }
+  },
+  "input": {
+    "tag": "forge:ingots/gold"
+  },
+  "energy": 6000
+}
